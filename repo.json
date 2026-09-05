@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "repository": "data-integrity-tools",
+  "state": "LOCAL_READY",
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "assets": [
+    {
+      "asset_id": "shar-pe400-w08-151",
+      "slug": "backup-321-plan-validator",
+      "title": "3-2-1 Backup Plan Validator",
+      "title_ru": "Валидатор плана резервного копирования 3-2-1",
+      "family": "data_integrity",
+      "purpose": "Checks copy count, media diversity and offsite coverage.",
+      "purpose_ru": "Проверяет число копий, разнообразие носителей и внешнее хранение.",
+      "code_license": "MIT",
+      "taxonomy_and_synthetic_fixtures_license": "CC-BY-4.0",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "state": "PLANNED"
+    },
+    {
+      "asset_id": "shar-pe400-w08-152",
+      "slug": "checksum-delivery-manifest-comparator",
+      "title": "Checksum Delivery Manifest Comparator",
+      "title_ru": "Сравнение манифестов контрольных сумм поставки",
+      "family": "data_integrity",
+      "purpose": "Compares expected and received delivery file checksums.",
+      "purpose_ru": "Сравнивает ожидаемые и полученные контрольные суммы файлов поставки.",
+      "code_license": "MIT",
+      "taxonomy_and_synthetic_fixtures_license": "CC-BY-4.0",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "state": "PLANNED"
+    }
+  ]
+}

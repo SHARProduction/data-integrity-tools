@@ -1,0 +1,16 @@
+{
+  "copies": [
+    {
+      "medium": "ssd",
+      "offsite": false
+    },
+    {
+      "medium": "nas",
+      "offsite": false
+    },
+    {
+      "medium": "cloud",
+      "offsite": true
+    }
+  ]
+}
